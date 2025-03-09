@@ -14,7 +14,7 @@ import { createSlice } from "@reduxjs/toolkit";
 /** @type {{balance: number, history: Transaction[]}} */
 const initialState = {
   balance: 0,
-  transactions : [],
+  history : [],
 };
 
 /* TODO
